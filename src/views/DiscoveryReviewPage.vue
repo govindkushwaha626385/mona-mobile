@@ -33,13 +33,14 @@
 
         <div class="comment">
           <p>Qu'en pensez-vous? <br><span class="optional">(optionnel)</span></p>
-          <ion-textarea
+          <ion-input
+            label="Comment"
             label-placement="floating"
-            :counter="true"
+            type="text"
             maxlength="300"
-            :auto-grow="true"
+            counter="true"
             id="input"
-          ></ion-textarea>
+           ></ion-input>
         </div>
 
         <!-- Container to catch submission attempts without a rating -->
